@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    font-family: Helvetica;
+    color: azure;
+
+}
+
+
+
+.box {
+    width: 80vh;
+    height: 40vh;
+    background-color: rgb(47,107,153);
+}
+
+.choose {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.welcomeMessage{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.visitorCount {
+    font-weight: bold;
+    font-size: 40px;
+}
+.afterAction {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.namePicker {
+    font-size: small;
+}
+.afterAction{
+    flex-direction: column;
+}
+.login{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.login h2{
+    font-size: 40px;
+}
+.login span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.nameSub {
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#username {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 375px;
+}

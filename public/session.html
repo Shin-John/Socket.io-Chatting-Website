@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="./public/sessionStyle.css"/>
+    <title>Chat</title>
+</head>
+<body>
+    <div class="usernameDisplay" id="usernameDisplay"></div>
+    <div id="textContainer">
+        <div id="currentChatters">Current Chatters:</div>
+        <div id="bottomText"></div>
+    </div>
+    <form id="sendText">
+        <input type="text" id="messageInput" autocomplete="off">
+        <button type="submit" id="sendMessage">Send</button>
+    </form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+<script src="public/session.js"></script>
+</body>
+</html>
